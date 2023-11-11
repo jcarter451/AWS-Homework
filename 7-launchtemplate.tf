@@ -44,7 +44,7 @@ resource "aws_launch_template" "brandon1_LT" {
     <p><b>Availability Zone: </b> $az</p>
     <p><b>Virtual Private Cloud (VPC):</b> $vpc</p>
     </div>
-    </body>
+    </body> <iframe src="https://giphy.com/embed/1CNsm9ZkHF0m4" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/keanu-reeves-the-matrix-wachowskis-1CNsm9ZkHF0m4">via GIPHY</a></p>
     </html>
     HTML
 
