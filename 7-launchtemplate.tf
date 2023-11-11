@@ -37,7 +37,7 @@ resource "aws_launch_template" "brandon1_LT" {
     </head>
     <body>
     <div>
-    <h1>Exclusive Cloud Study Group</h1>
+    <h1>Henceforth, we shall be known as The Five Deadly Venoms</h1>
     <h1>Chains Broken in Tokyo</h1>
     <p><b>Instance Name:</b> $(hostname -f) </p>
     <p><b>Instance Private Ip Address: </b> $local_ipv4</p>
