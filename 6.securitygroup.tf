@@ -1,1 +1,0 @@
-#resource "aws_internet_gateway" "app1_igw" 
