@@ -1,6 +1,6 @@
 resource "aws_launch_template" "brandon1_LT" {
   name_prefix   = "brandon1_LT"
-  image_id      = "ami-098940df4d3292e9a"  
+  image_id      = "ami-0e27477e1cba0d324"  
   instance_type = "t2.micro"
 
   key_name = "MyLinuxBox"
@@ -44,7 +44,7 @@ resource "aws_launch_template" "brandon1_LT" {
     <p><b>Availability Zone: </b> $az</p>
     <p><b>Virtual Private Cloud (VPC):</b> $vpc</p>
     </div>
-    </body> <iframe width="560" height="315" src="https://www.youtube.com/embed/uXGE0vuuaDo?si=NNNaukGyF9gue8JL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </body> <iframe width="1120" height="630" src="https://www.youtube.com/embed/uXGE0vuuaDo?si=NNNaukGyF9gue8JL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </html>
     HTML
 
