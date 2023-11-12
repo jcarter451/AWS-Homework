@@ -4,9 +4,9 @@ resource "aws_autoscaling_group" "brandon1_asg" {
   max_size              = 15
   desired_capacity      = 6
   vpc_zone_identifier   = [
-    aws_subnet.private-ap-northeast-1a.id,
-    aws_subnet.private-ap-northeast-1c.id,
-    aws_subnet.private-ap-northeast-1d.id
+    aws_subnet.private-ca-central-1a.id,
+    aws_subnet.private-ca-central-1b.id,
+    aws_subnet.private-ca-central-1d.id
   ]
   health_check_type          = "ELB"
   health_check_grace_period  = 300
