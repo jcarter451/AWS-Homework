@@ -1,12 +1,12 @@
 resource "aws_lb" "brandon1_alb" {
-  name               = "app1-load-balancer"
+  name               = "brandon1-load-balancer"
   internal           = false
   load_balancer_type = "application"
   security_groups    = [aws_security_group.brandon1-sg02-LB01.id]
   subnets            = [
-    aws_subnet.public-ap-northeast-1a.id,
-    aws_subnet.public-ap-northeast-1c.id,
-    aws_subnet.public-ap-northeast-1d.id
+    aws_subnet.public-ca-central-1a.id,
+    aws_subnet.public-ca-central-1b.id,
+    aws_subnet.public-ca-central-1d.id
   ]
   enable_deletion_protection = false
 
