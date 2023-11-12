@@ -1,13 +1,13 @@
 #These are   for  public
 
-resource "aws_subnet" "public-ap-northeast-1a" {
+resource "aws_subnet" "public-ca-central-1a" {
   vpc_id                  = aws_vpc.brandon1.id
   cidr_block              = "10.72.1.0/24"
-  availability_zone       = "ap-northeast-1a"
+  availability_zone       = "ca-central-1a"
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "ap-northeast-1a"
+    Name = "public-ca-central-1a"
     Service = "Corvette"
     Owner = "Brandon"
     Planet = "Jupiter"
@@ -15,16 +15,14 @@ resource "aws_subnet" "public-ap-northeast-1a" {
 }
 
 
-
-
-resource "aws_subnet" "public-ap-northeast-1c" {
+resource "aws_subnet" "public-ca-central-1b" {
   vpc_id                  = aws_vpc.brandon1.id
-  cidr_block              = "10.72.3.0/24"
-  availability_zone       = "ap-northeast-1c"
+  cidr_block              = "10.72.2.0/24"
+  availability_zone       = "ca-central-1b"
   map_public_ip_on_launch = true
 
   tags = {
-    Name    = "public-ap-northeast-1c"
+    Name    = "public-ca-central-1b"
     Service = "Corvette"
     Owner = "Brandon"
     Planet = "Jupiter"
@@ -32,14 +30,14 @@ resource "aws_subnet" "public-ap-northeast-1c" {
 }
 
 
-resource "aws_subnet" "public-ap-northeast-1d" {
+resource "aws_subnet" "public-ca-central-1d" {
   vpc_id                  = aws_vpc.brandon1.id
   cidr_block              = "10.72.4.0/24"
-  availability_zone       = "ap-northeast-1d"
+  availability_zone       = "ca-central-1d"
   map_public_ip_on_launch = true
 
   tags = {
-    Name    = "public-ap-northeast-1d"
+    Name    = "public-ca-central-1d"
      Service = "Corvette"
     Owner = "Brandon"
     Planet = "Jupiter"
@@ -48,40 +46,39 @@ resource "aws_subnet" "public-ap-northeast-1d" {
 
 
 #these are for private
-resource "aws_subnet" "private-ap-northeast-1a" {
+resource "aws_subnet" "private-ca-central-1a" {
   vpc_id            = aws_vpc.brandon1.id
   cidr_block        = "10.72.11.0/24"
-  availability_zone = "ap-northeast-1a"
+  availability_zone = "ca-central-1a"
 
   tags = {
-    Name    = "private-ap-northeast-1a"
+    Name    = "private-ca-central-1a"
     Service = "Corvette"
     Owner = "Brandon"
     Planet = "Jupiter"
   }
 }
 
-resource "aws_subnet" "private-ap-northeast-1c" {
+resource "aws_subnet" "private-ca-central-1b" {
   vpc_id            = aws_vpc.brandon1.id
-  cidr_block        = "10.72.13.0/24"
-  availability_zone = "ap-northeast-1c"
+  cidr_block        = "10.72.12.0/24"
+  availability_zone = "ca-central-1b"
 
   tags = {
-    Name    = "private-ap-northeast-1c"
+    Name    = "private-ca-central-1b"
     Service = "Corvette"
     Owner = "Brandon"
     Planet = "Jupiter"
   }
 }
 
-
-resource "aws_subnet" "private-ap-northeast-1d" {
+resource "aws_subnet" "private-ca-central-1d" {
   vpc_id            = aws_vpc.brandon1.id
   cidr_block        = "10.72.14.0/24"
-  availability_zone = "ap-northeast-1d"
+  availability_zone = "ca-central-1d"
 
   tags = {
-    Name    = "private-ap-northeast-1d"
+    Name    = "private-ca-central-1d"
     Service = "Corvette"
     Owner = "Brandon"
     Planet = "Jupiter"
