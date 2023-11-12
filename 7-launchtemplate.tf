@@ -38,7 +38,7 @@ resource "aws_launch_template" "brandon1_LT" {
     <body>
     <div>
     <h1>Henceforth, we shall be known as The Five Deadly Venoms</h1>
-    <h1>Chains Broken in Tokyo</h1>
+    <h1>Chains Broken in Canada</h1>
     <p><b>Instance Name:</b> $(hostname -f) </p>
     <p><b>Instance Private Ip Address: </b> $local_ipv4</p>
     <p><b>Availability Zone: </b> $az</p>
